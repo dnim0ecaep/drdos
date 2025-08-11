@@ -1,6 +1,6 @@
 #!/bin/bash
 # install help
-Requires "eza"
+#Requires "eza"
 cat << 'EOF' >> ~/.bashrc
 alias ls='eza -l --grid --icons --time-style=long-iso --group-directories-first'
 PS1='\[\e[1;36m\]\w\n\[\e[0m\]❯ '
